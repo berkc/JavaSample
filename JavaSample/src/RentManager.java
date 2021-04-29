@@ -2,10 +2,10 @@
 public class RentManager {
 	
 	public void rentCar(Car car,Customer customer) {
-		System.out.println(customer.firstName+ " " + car.brand + " Aracý kiraladý");
+		System.out.println(customer.getId()+ " " + car.getBrand() + " Aracý kiraladý");
 	}
 	
 	public void dropCar(Car car,Customer customer) {
-		System.out.println(customer.firstName+ " " + car.brand + " Teslim etti");
+		System.out.println(customer.getId()+ " " + car.getBrand() + " Teslim etti");
 	}
 }

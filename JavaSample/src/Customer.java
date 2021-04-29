@@ -1,13 +1,18 @@
 
 public class Customer {
+
+	private int id;
 	
-	public Customer(int id,String firstName,String lastName) {
+	public Customer(int id) {
 		this.id=id;
-		this.firstName=firstName;
-		this.lastName=lastName;
 	}
 	
-	int id;
-	String firstName;
-	String lastName;
+	public int getId() {
+		return id;
+	}
+	
+	public void setId(int id) {
+		this.id=id;
+	}
+
 }
