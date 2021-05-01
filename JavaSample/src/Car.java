@@ -1,26 +1,26 @@
 
 public class Car {
-	
+
 	private int id;
 	private String brand;
 	private String model;
-	
+
 	public Car() {
-		
+
 	}
-	
+
 	public Car(int id, String brand, String model) {
-		this.id=id;
-		this.brand=brand;
-		this.model=model;
+		this.id = id;
+		this.brand = brand;
+		this.model = model;
 	}
-	
+
 	public int getId() {
 		return id;
 	}
-	
+
 	public void setId(int id) {
-		this.id=id;
+		this.id = id;
 	}
 
 	public String getBrand() {
@@ -38,6 +38,5 @@ public class Car {
 	public void setModel(String model) {
 		this.model = model;
 	}
-	
 
 }
