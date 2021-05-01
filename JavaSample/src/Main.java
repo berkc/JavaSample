@@ -20,7 +20,7 @@ public class Main {
 			System.out.println(customer.getId() + " Numaralı Müşteri");
 		}
 		
-		RentManager rentManager=new RentManager();
+		RentManager rentManager=new RentManager(new DatabaseLogger());
 		rentManager.rentCar(car1, customer2);
 		
 		rentManager.dropCar(car1, customer2);
